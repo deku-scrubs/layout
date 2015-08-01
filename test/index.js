@@ -31,12 +31,18 @@ describe('layout', function () {
     assert.ok(cellStyle.indexOf('flex:0 0 33.33%') !== -1)
   })
 
-  it('should not put undefind when a prop isnt specified', function() {
+  it('should not put undefind when a prop isnt specified', function () {
     create(<Row layoutAlign='space-around'><RowCell flex='33'>test</RowCell></Row>)
     const row = container.children[0]
     const rowStyle = row.attributes.style.value
 
     assert.ok(rowStyle.indexOf('align-items') === -1)
+  })
+
+  it('should not throw an error when layoutAlign is not specified', function () {
+    assert.doesNotThrow(function () {
+      create(<Row />)
+    })
   })
 })
 
