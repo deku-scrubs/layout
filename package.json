@@ -26,7 +26,8 @@
     ]
   },
   "dependencies": {
-    "@deku-scrubs/style": "git://github.com/deku-scrubs/style"
+    "@deku-scrubs/style": "git://github.com/deku-scrubs/style",
+    "object-assign": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "2.x",

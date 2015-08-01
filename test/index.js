@@ -16,7 +16,7 @@ describe('layout', function () {
   })
 
   it('should work', function () {
-    create(<Row layoutAlign='space-around center' ><RowCell flex='33'>test</RowCell></Row>)
+    create(<Row layoutAlign='space-around center'><RowCell flex='33'>test</RowCell></Row>)
     const row = container.children[0]
     const cell = row.children[0]
 
