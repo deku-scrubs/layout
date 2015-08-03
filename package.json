@@ -25,11 +25,9 @@
       "after"
     ]
   },
-  "peerDependencies": {
-    "@deku-scrubs/style": "git://github.com/deku-scrubs/style"
-  },
   "dependencies": {
-    "object-assign": "^3.0.0"
+    "object-assign": "^3.0.0",
+    "@deku-scrubs/style": "git://github.com/deku-scrubs/style"
   },
   "devDependencies": {
     "mocha": "2.x",
