@@ -2,7 +2,8 @@
  * Imports
  */
 import assert from 'assert'
-import {element, tree, render} from 'deku'
+import {tree, render} from 'deku'
+import element from 'virtual-element'
 import {Row, RowCell} from '..'
 
 /**
