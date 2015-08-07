@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "@deku-scrubs/style": "git://github.com/deku-scrubs/style",
-    "magic-virtual-element": "^1.0.4",
-    "object-assign": "^3.0.0"
+    "object-assign": "^3.0.0",
+    "virtual-element": "^1.1.1"
   },
   "devDependencies": {
     "@deku-scrubs/standard": "*",

@@ -3,7 +3,7 @@
  */
 import assert from 'assert'
 import {tree, render} from 'deku'
-import element from 'magic-virtual-element'
+import element from 'virtual-element'
 import {Row, RowCell} from '..'
 
 /**
