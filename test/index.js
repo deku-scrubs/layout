@@ -3,7 +3,7 @@
  */
 import assert from 'assert'
 import {tree, render} from 'deku'
-import element from 'virtual-element'
+import element from 'magic-virtual-element'
 import {Row, RowCell} from '..'
 
 /**
@@ -24,12 +24,12 @@ describe('layout', function () {
     const rowStyle = row.attributes.style.value
     const cellStyle = cell.attributes.style.value
 
-    assert.ok(rowStyle.indexOf('flex-direction:row') !== -1)
-    assert.ok(rowStyle.indexOf('justify-content:space-around') !== -1)
-    assert.ok(rowStyle.indexOf('align-items:center') !== -1)
+    assert.ok(rowStyle.indexOf('flex-direction: row') !== -1)
+    assert.ok(rowStyle.indexOf('justify-content: space-around') !== -1)
+    assert.ok(rowStyle.indexOf('align-items: center') !== -1)
 
-    assert.ok(cellStyle.indexOf('max-width:33.33%') !== -1)
-    assert.ok(cellStyle.indexOf('flex:0 0 33.33%') !== -1)
+    assert.ok(cellStyle.indexOf('max-width: 33.33%') !== -1)
+    assert.ok(cellStyle.indexOf('flex: 0 0 33.33%') !== -1)
   })
 
   it('should not put undefind when a prop isnt specified', function () {

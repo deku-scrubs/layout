@@ -26,9 +26,8 @@
     ]
   },
   "dependencies": {
-    "@deku-scrubs/style": "git://github.com/deku-scrubs/style",
-    "object-assign": "^3.0.0",
-    "virtual-element": "^1.1.1"
+    "magic-virtual-element": "^1.0.4",
+    "object-assign": "^3.0.0"
   },
   "devDependencies": {
     "@deku-scrubs/standard": "*",
@@ -36,8 +35,7 @@
     "deku": "^0.5.0",
     "mocha": "2.x",
     "mochify": "^2.10.0",
-    "phantomjs": "^1.9.17",
-    "virtual-element": "^1.1.1"
+    "phantomjs": "^1.9.17"
   },
   "engines": {
     "node": "~0.10.38",
